@@ -1,0 +1,44 @@
+task: ml_reasoning
+dataset_path: json
+dataset_kwargs:
+  data_files:
+    train: dataset.json
+dataset_name: null
+training_split: null
+test_split: train
+output_type: generate_until
+doc_to_text: |-
+  Answer the following question by replying with ONLY the letter of the correct option (A, B, C, or D).
+
+  Question: {{question}}
+  A) {{choices[0]}}
+  B) {{choices[1]}}
+  C) {{choices[2]}}
+  D) {{choices[3]}}
+
+  Answer:
+doc_to_target: "{{answer}}"
+generation_kwargs:
+  max_gen_toks: 5
+  temperature: 0.0
+  until:
+    - "\n"
+    - ")"
+    - "."
+    - ","
+filter_list:
+  - name: "extract_letter"
+    filter:
+      - function: "regex"
+        regex_pattern: "([A-D])"
+        group_select: 0
+      - function: "take_first"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: >
+    Custom 15-question benchmark spanning ML fundamentals, neural network
+    architecture, optimisation, NLP, and systems design.

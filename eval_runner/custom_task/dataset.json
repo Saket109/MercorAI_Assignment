@@ -1,0 +1,92 @@
+[
+  {
+    "question": "In a standard transformer, what is the computational complexity of self-attention with respect to sequence length n?",
+    "choices": ["O(n)", "O(n log n)", "O(n^2)", "O(n^3)"],
+    "answer": "C",
+    "category": "architecture"
+  },
+  {
+    "question": "Which regularization technique randomly sets a fraction of activations to zero during training?",
+    "choices": ["L2 regularization", "Dropout", "Batch normalization", "Weight decay"],
+    "answer": "B",
+    "category": "training"
+  },
+  {
+    "question": "What does the 'temperature' parameter in softmax sampling control?",
+    "choices": ["Learning rate", "Randomness of token selection", "Maximum sequence length", "Gradient magnitude"],
+    "answer": "B",
+    "category": "decoding"
+  },
+  {
+    "question": "In the bias-variance tradeoff, a model with high variance typically suffers from which problem?",
+    "choices": ["Underfitting", "Overfitting", "Vanishing gradients", "Mode collapse"],
+    "answer": "B",
+    "category": "ml_fundamentals"
+  },
+  {
+    "question": "Which optimizer adapts learning rates per-parameter using first and second moment estimates of gradients?",
+    "choices": ["SGD", "Adagrad", "Adam", "RMSProp"],
+    "answer": "C",
+    "category": "optimisation"
+  },
+  {
+    "question": "What is the primary purpose of positional encoding in transformer models?",
+    "choices": ["Reduce model size", "Inject token order information", "Speed up training", "Handle variable batch sizes"],
+    "answer": "B",
+    "category": "architecture"
+  },
+  {
+    "question": "In the context of LLMs, what does 'KV cache' store during autoregressive generation?",
+    "choices": ["Model weights", "Gradient history", "Key and Value tensors from previous tokens", "Tokenizer vocabulary"],
+    "answer": "C",
+    "category": "systems"
+  },
+  {
+    "question": "Which metric is most appropriate for evaluating a binary classifier on an imbalanced dataset?",
+    "choices": ["Accuracy", "F1-score", "Mean squared error", "R-squared"],
+    "answer": "B",
+    "category": "ml_fundamentals"
+  },
+  {
+    "question": "What does the 'paged attention' technique in vLLM primarily optimize?",
+    "choices": ["Training speed", "GPU memory utilization for KV cache", "Model accuracy", "Data preprocessing"],
+    "answer": "B",
+    "category": "systems"
+  },
+  {
+    "question": "In a residual network (ResNet), what does the skip connection add to the layer output?",
+    "choices": ["The gradient", "A learned bias term", "The original input to the block", "A random noise vector"],
+    "answer": "C",
+    "category": "architecture"
+  },
+  {
+    "question": "Which tokenization method uses a merge-based algorithm starting from individual characters?",
+    "choices": ["Word-level", "Byte Pair Encoding (BPE)", "TF-IDF", "One-hot encoding"],
+    "answer": "B",
+    "category": "nlp"
+  },
+  {
+    "question": "What is the vanishing gradient problem primarily caused by in deep networks?",
+    "choices": ["Large learning rates", "Repeated multiplication of small gradients through many layers", "Excessive dropout", "Using too many parameters"],
+    "answer": "B",
+    "category": "training"
+  },
+  {
+    "question": "In continuous batching (used by vLLM), when can a new request join an in-progress batch?",
+    "choices": ["Only at batch boundaries", "At any iteration when a slot is free", "Never during generation", "Only during the prefill phase"],
+    "answer": "B",
+    "category": "systems"
+  },
+  {
+    "question": "What is the key difference between greedy decoding and beam search?",
+    "choices": ["Greedy uses temperature, beam search does not", "Beam search maintains multiple candidate sequences simultaneously", "Greedy is non-deterministic, beam search is deterministic", "There is no difference"],
+    "answer": "B",
+    "category": "decoding"
+  },
+  {
+    "question": "Which loss function is standard for training a multi-class classification model?",
+    "choices": ["Mean squared error", "Binary cross-entropy", "Categorical cross-entropy", "Hinge loss"],
+    "answer": "C",
+    "category": "ml_fundamentals"
+  }
+]

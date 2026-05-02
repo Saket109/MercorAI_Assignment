@@ -1,0 +1,11 @@
+{
+  "ts": "2026-05-02T19:17:18Z",
+  "url": "http://localhost:9000",
+  "config": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "seed": 42,
+    "max_tokens": 256
+  },
+  "passed": true
+}

@@ -1,0 +1,5367 @@
+{
+  "name": "instruct_5shot_norm",
+  "accuracy_pct": 45.44,
+  "correct": 304,
+  "total": 669,
+  "ci_95": [
+    42.0,
+    49.18
+  ],
+  "elapsed_s": 385.7,
+  "temperature": 0.0,
+  "normalizer": true,
+  "results": [
+    {
+      "question": "Why are there no impact craters on the surface of Io?",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Jupiter's strong gravity attracted the planetesimals more",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Pluto's extremely cold (~40 K) surface is composed of:",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. nitrogen methane and carbon monoxide ices which sub",
+      "subject": "astronomy"
+    },
+    {
+      "question": "During a chemical reaction, NO(g) gets reduced and no nitrog",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. N2(g)",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "How do you prevent SQL injection?",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. All of the above",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the following is a Wireless traffic Sniffing tool?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Wireshark",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A sample of oxygen gas at 50 \u00b0C is heated, reaching a final ",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Their kinetic energy increases by a factor of 2.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The relationship between the vapor pressure of a liquid and ",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Clausius-Clapeyron equation",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The lithosphere of a planet is the layer that consists of",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. the rigid rocky material of the crust and uppermost portion",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following is true about any system that undergo",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "college_physics"
+    },
+    {
+      "question": "What is a web proxy?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. A piece of software that intercepts and possibly modifies requests",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A proxy rewall lters at the",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Application layer",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The terrestrial planet cores contain mostly metal because",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Metals differentiated to the center during a time when the inter",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Mars has an atmosphere that is almost entirely carbon dioxid",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. the atmosphere on Mars is too thin to trap a significant amount of",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A uniform solid disk starts from rest and rolls down an incl",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 1/2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "By definition, the electric displacement current through a s",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. rate of change of the electric flux through S",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Under certain conditions, a beam of electrons impinging on a",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 10 eV",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which among them has the strongest wireless security?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. WPA3",
+      "subject": "computer_security"
+    },
+    {
+      "question": "You've just finished training a decision tree for spam class",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. You are overfitting.",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "As of 2020, which architecture is best for classifying high-",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. convolutional networks",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The astronomical unit parsec (pc) plays a crucial role in as",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Distance at which one astronomical unit measures one arcsecond from",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The visible part of the electromagnetic spectrum is between ",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 380 to 740 nm.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Most rocks on the Moon's surface are older than those on the",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Radioactive dating of lunar samples shows that they are older.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "S(s) + O2(g) \u2192 SO2(g)",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. one atom of S reacts with one molecule of O2",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Nitrogen's electronegativity value is between those of phosp",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. The value for nitrogen is greater than that of phosphorus",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following lasers utilizes transitions that invo",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Free-electron laser",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Why did the solar nebula heat up as it collapsed?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. As the cloud shrank its gravitational potential energy was converted to",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The sign of the charge carriers in a doped semiconductor can",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Hall coefficient",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Why do we look for water-ice in craters at Mercury's pole?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. These craters contain the only permanently shadowed regions on Mercury",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Chlorine gas reacts most readily with",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. toluene",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Existential risks posed by AI are most commonly associated w",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Stuart Russell",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Sulfur dioxide reacts with oxygen to form sulfur trioxide in",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 2.88 \u00d7 10^-6 torr",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Positronium is an atom formed by an electron and a positron ",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 12.2 eV",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Statement 1| Maximizing the likelihood of logistic regressio",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Failed sessions allow brute-force attacks on access credenti",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Session layer",
+      "subject": "computer_security"
+    },
+    {
+      "question": "When will Kp and Kc have the same numerical value?",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. At absolute zero for all reactions",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "____________ is also a part of darknet that is employed for ",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Freenet",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The energy from electromagnetic waves in equilibrium in a ca",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. 16",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The belts and zones of Jupiter are",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Alternating bands of rising and falling air at different latitudes.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "How do scientists know that the majority of meteorites come ",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Collisions are common in the asteroid belt and we can track",
+      "subject": "astronomy"
+    },
+    {
+      "question": "What is not true of Jupiter's magnetic field?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. it switches polarity every 11 years",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Substances whose Lewis structures must be drawn with an unpa",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. free radicals",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Consider the paper Native Client: A Sandbox for Portable, Un",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. all instructions that modify segment state",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The famous Drake equation attempts to answer the following q",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Are we alone in the universe?",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Three half-lives after an isotope is prepared,",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 12.5% of the isotope is left",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the empirical formula of a compound that is 51.9% ca",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. C7H5Br",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The ideal gas law is successful for most gases because",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is a radioactive element?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Am",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "___________________ is alike as that of Access Point (AP) fr",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Base Transceiver Station",
+      "subject": "computer_security"
+    },
+    {
+      "question": "What is the work involved if a gas in a 2.0-liter container ",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. -3.2 L atm",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Statement 1| We learn a classifier f by boosting weak learne",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The functional group that represents an organic acid is writ",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. RCOOH",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Electromagnetic radiation provides a means to probe aspects ",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Spectral analysis can be used to identify the composition of galactic",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Statement 1| A U2F USB dongle prevents malware on the user\u2019s",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. True, True",
+      "subject": "computer_security"
+    },
+    {
+      "question": "De Broglie hypothesized that the linear momentum and wavelen",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. The speed of light",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which of the following molecules cannot hydrogen bond with m",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. C6H5CHO",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is a reduction half-reaction? (1) Cu2",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 1 and 2 because they both reduce copper ions",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the conjugate acid of the H2PO4- ion?",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. HPO42-",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Neural networks:",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Can use a mix of different activation functions",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The resolution of a telescope is a measure of its:",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Ability to measure the angular separation of objects",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Three of the following are classic security properties; whic",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Availability",
+      "subject": "computer_security"
+    },
+    {
+      "question": "According to the Solar Nebular theory what are asteroids and",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. They are chunks of rock or ice that condensed long after the",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following is more appropriate to do feature sel",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Lasso",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The standard state for redox reactions includes",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. all of the above are true",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is true of mutation-based fuzzing?",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. It works by making small mutations to the target program to indu",
+      "subject": "computer_security"
+    },
+    {
+      "question": "What is true about the rotation of a solid disk?",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. The part closer to the axis has a shorter period.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "What does the astronomical term ecliptic describe?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. The path of the Sun in the sky throughout a year.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "An organ pipe, closed at one end and open at the other, is d",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 262 Hz",
+      "subject": "college_physics"
+    },
+    {
+      "question": "A 3-microfarad capacitor is connected in series with a 6-mic",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 0.09 J",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Atoms of four elements are examined: carbon, nitrogen, neon,",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Sulfur",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A satellite of mass m orbits a planet of mass M in a circula",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. independent of M",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The quantum efficiency of a photon detector is 0.1. If 100 p",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. an average of 10 times, with an rms dev",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The suspension cable of a 1,000 kg elevator snaps, sending t",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 1,000,000 J",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Identify the Br\u00f8nsted-Lowry conjugate acid-base pair in the ",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. H3O+ and OH-",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Assume that a TLS connection has been established successful",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Statement 1| The derivative of the sigmoid $\\sigma(x)=(1+e^{",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "What was the first buffer overflow attack?",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Love Bug",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Why do we see essentially the same face of the Moon at all t",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. because the Moon's rotational and orbital periods are equal",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Two simple pendulums A and B consist of identical masses sus",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Electrons producing \u010cerenkov radiation",
+      "subject": "college_physics"
+    },
+    {
+      "question": "In building a linear regression model for a particular data ",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. This feature has a strong effect on the model (should be retained",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "All of the following ions have the same electron configurati",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Rb+",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "1. _________ framework made cracking of vulnerabilities easy",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Metasploit",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Statement 1| PCA and Spectral Clustering (such as Andrew Ng\u2019",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Buffer-overflow may remain as a bug in apps if __________ ar",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. buffer checks",
+      "subject": "computer_security"
+    },
+    {
+      "question": "What is the difference between a direct leak and a side chan",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. A direct leak comes via the software system's intended interaction mechanism",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the following is incorrectly named?",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. K2Cr2O7",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "How did Eratosthenes estimate the size of the Earth in 240 B",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. By measuring the size of Earth's shadow on the Moon during",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Some of Mars'water is frozen in the soil and the ice caps an",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. it was broken into hydrogen and oxygen by ultraviolet",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following statements about bosons and/or fermio",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Fermions have antisymmetric wave functions and obey the",
+      "subject": "college_physics"
+    },
+    {
+      "question": "How did Eratosthenes estimate the size of Earth in 240 B.C.?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. By comparing the maximum altitude of the Sun in two cities at",
+      "subject": "astronomy"
+    },
+    {
+      "question": "How many milliliters of 0.250 M KOH does it take to neutrali",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 30.0 mL",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "We are training fully connected network with two hidden laye",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Should not set it to zero since otherwise it will cause overf",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Why are the season's in Mars' southern hemisphere so extreme",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. because Mars' axis is more tilted than the Earth's",
+      "subject": "astronomy"
+    },
+    {
+      "question": "If 1.0 g of rubidium and 1.0 g of bromine are reacted, what ",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. RbBr, Rb, and Br2",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The stack is memory for storing",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Local variables",
+      "subject": "computer_security"
+    },
+    {
+      "question": "What is a nop sled",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. It is a sequence of nops preceding injected shellcode",
+      "subject": "computer_security"
+    },
+    {
+      "question": "What is the mass of one molecule of cholesterol (C27H46O, mo",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Predicting the amount of rainfall in a region based on vario",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Supervised learning",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The primary source of the Sun\u2019s energy is a series of thermo",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Two hydrogen atoms and one helium atom",
+      "subject": "college_physics"
+    },
+    {
+      "question": "High entropy means that the partitions in classification are",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. not pure",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "In a nonrelativistic, one-dimensional collision, a particle ",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 1/2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Another term for out-of-distribution detection is?",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Another term for out-of-distribution detection is anomaly",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "When will the next major impact occur on Earth?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Could be any time. The probability of impact is the same next",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| The maximum margin decision boundaries that sup",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Statement 1| VGGNets have convolutional kernels of smaller w",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "What is Nmap?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. It is a scanner which works by injecting packets to a",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Your supervisor asks you to determine the enthalpy of a cert",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Use a bomb calorimeter to measure the heat of the reaction",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Kirkwood gaps are observed in the main asteroid belt includi",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. A and B",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following correctly lists the individual interm",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Hydrogen bond < dipole-dipole < induced",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Carbon has an atomic radius of 77 pm and a first ionization ",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 70 pm, 1402 kJ/",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The speed of light inside of a nonmagnetic dielectric materi",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1.2 \\* 10^9 m/",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The sign of the charge carriers in a doped semiconductor can",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Hall coefficient",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which of the following is the joint probability of H, U, P, ",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. P(H, U, P, W) = P(",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following is not a security exploit?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Authentication",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The collision theory of reaction rates does not include",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. the orientation of each collision",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A metal is reacted with HCl to produce hydrogen gas. If 0.06",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 24.7 g",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following points would Bayesians and frequentis",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. The use of prior distributions on the parameters in a probabilistic",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "For a Gaussian Bayes classifier, which one of these structur",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Whether we allow classes to have different mean vectors or we force them",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "What are the port states determined by Nmap?",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Open, half-open, closed",
+      "subject": "computer_security"
+    },
+    {
+      "question": "What about asteroids makes them stand out in sky surveys sea",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. They reflect enough of the sun's light to make them br",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A solution is prepared by dissolving 30.0 grams of Ni(NO3)2 ",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.496 molar",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Jupiter and the other jovian planets are sometimes called \"g",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Actually it's a great description because these worlds are big and",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following gives the total spin quantum number o",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1/2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which living organisms most resemble the common ancestor of ",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. organisms living deep in the oceans around seafloor",
+      "subject": "astronomy"
+    },
+    {
+      "question": "In a _____________ attack, the extra data that holds some sp",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Buffer-overflow",
+      "subject": "computer_security"
+    },
+    {
+      "question": "An experiment was performed to determine the moles of carbon",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Perhaps there was not enough acid to dissolve all the limestone",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Assume that a TLS connection has been established successful",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A proton moves in the +z-direction after being accelerated f",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Electrons producing \u010cerenkov radiation\nB. Electrons coll",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Meteorites with high metal content probably are",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The first five harmonics produced by an organ pipe open at b",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Electrons producing \u010cerenkov radiation\nB. Electrons coll",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Assume that the solar flux at Earth\u2019s surface is 1,000 W/m^2",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 2 x 10^-6 N",
+      "subject": "college_physics"
+    },
+    {
+      "question": "We were first able to accurately measure the diameter of Plu",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Hubble Space Telescope images that resolved Pluto's",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A 10 kg box slides horizontally without friction at a speed ",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1 N",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The subatomic particle with the most penetrating ability is",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. a beta particle",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A uniform solid disk starts from rest and rolls down an incl",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 1/2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The units for R, the ideal gas law equation constant, may be",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. (A), (B), and (C)",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "From laboratory measurements we know that a particular spect",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. The star is moving toward us.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "What is the molar mass of a monoprotic weak acid that requir",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 212 g mol^-1",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which one of the following is the main reason for pruning a ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. To avoid overfitting the training set",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "_ refers to a model that can neither model the training data",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Should not set it to zero since otherwise (stochastic)",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "For a neural network, which one of these structural assumpti",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. The number of hidden nodes",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "How many electrons, neutrons, and protons are in an atom of ",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 24 electrons, 24 protons,",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is false?",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Leaky ReLU $\\max\\{0.01x",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Hypochlorous acid is an unstable compound, and one of the de",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. The endpoint would be before the ideal equivalence point.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the correct numerical value and unit of the Boltzman",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1.38 \u00d7 10\u221221 m",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| ImageNet has images of various resolutions. Sta",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Statement 1| Industrial-scale neural networks are normally t",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Suppose your model is overfitting. Which of the following is",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Reduce the noise in the training data.",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Iron(III) hydroxide has Ksp = 1.6 \u00d7 10^-39. What is the mola",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 7.4 \u00d7 10^-14 mol/",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Light of variable frequency shines on the metal surface of a",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. work function of the metal is proportional to the frequency",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which of the following is true for all bases?",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. All bases donate OH- ions into solution.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What would weigh the most on the moon?",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. A kilogram of bricks",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The reaction of Br2(g) with Cl2(g) to form BrCl(g) has an eq",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 3.8 \u00d7 10^-3 mol/L",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following can form hydrogen bonds?",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. CH3OCH2CH3",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A 25 g sample of a liquid was heated to 100 \u00b0C and then quic",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. The sample temperature changed more than the water temperature did; therefore the",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is a replay attack?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. The attacker resends a captured message, and the site accepts",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Determine the H+(aq) concentration in 1.0 M phenol, C6H5OH, ",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1 \u00d7 10^-10 M",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the Cassini division of Saturn's rings?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. a large gap visible from Earth produced by an orbital resonance",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Mars has an atmospheric pressure of 600 pascals. If the acce",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Power emitted is 1/16 times as high;",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The driver of a police car hears an echo of the car\u2019s siren ",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 600 Hz",
+      "subject": "college_physics"
+    },
+    {
+      "question": "When does a buffer overflow occur, generally speaking?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. when a pointer is used to access memory not allocated to it",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the following pair of liquids is expected to be imm",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. C10H22 and CH2CH2CH2",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Computational complexity of Gradient descent is,",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. linear in N",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "In acid solution the bromate ion, BrO3- can react with other",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 3 electrons on the left",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Man in the middle attack can endanger the security of Diffie",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Shared",
+      "subject": "computer_security"
+    },
+    {
+      "question": "What would you do in PCA to get the same projection as SVD?",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Transform data to zero median",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which among the following is the least strong security encry",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. WEP",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The molecule with a tetrahedral shape is",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. PCl4F",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "When potassium perchlorate, KClO4, dissolves in water, the t",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. This is a spontaneous process because it is exothermic.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Consider the Bayesian network given below. How many independ",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 4",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "When the dichromate ion is reacted, one of its most common p",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 6+, oxidation",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "How does the greenhouse effect work?",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Greenhouse gases transmit visible light allowing it to heat the surface",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following is expected to be the least soluble i",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. CrCl3",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Statement 1| A neural network's convergence depends on the l",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The Pauli exclusion principle states that",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. no two electrons can occupy separate orbitals",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Why does the plasma (ion) tail of a comet always point away ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. The solar wind electromagnetically \"blows\" the",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Given a large dataset of medical records from patients suffe",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Unsupervised learning",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "What do meteorites reveal about the solar system?",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. They reveal that meteorites are much older than the com",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A proposed mechanism for a reaction is as follows: NO2 + F2 ",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Second order",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The ______________ is categorized as an unknown segment of t",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Dark web",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Adding more basis functions in a linear model, pick the most",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Decreases variance",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following is a remote Trojan?",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Game-Troj",
+      "subject": "computer_security"
+    },
+    {
+      "question": "For a Gaussian Bayes classifier, which one of these structur",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Whether we allow classes to have different mean vectors or we force them",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following indicates that a reaction is spontane",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. the value of Keq is less than one",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The numerical output of a sigmoid node in a neural network:",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Is bounded between 0 and 1.",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "When doing least-squares regression with regularisation (ass",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. will never increase the training error.",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "An ideal solution is a",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. mixture that has the same physical properties as the individual solvents",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Sound waves moving at 350 m/s diffract out of a speaker encl",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 500 Hz",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Sulfurous acid is a weak acid, while sulfuric acid is a much",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. The sulfur in sulfuric acid is more electrone",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "If N is the number of instances in the training dataset, nea",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. O( N )",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Radio telescopes are crucial for astronomical observations. ",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Effelsberg Telescope",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following is expected to have the highest elect",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. W",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Three 25.00 mL samples of approximately 0.10 M phenol, C6H5O",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. There was an acid contaminating the unclean beaker.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Consider the Bayesian network given below. How many independ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. 15",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "You\u2019ve made a scientific theory that there is an attractive ",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. When you and many others have tested the hypothesis.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which following pair of substances can be used to make a buf",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. HC2H3O2 and KC2H3",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "How do scientists know that the majority of meteorites come ",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Collisions are common in the asteroid belt and we can track",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A first-order reaction has a half-life of 34 minutes. What i",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 3.4 \u00d7 10^-4 s-1",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A 2.0 L flask holds 0.40 g of helium gas. If the helium is e",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following sentence is FALSE regarding regressio",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. It discovers causal relationships",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Why apps developed in languages like C, C++ is prone to Buff",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. No string boundary checks in predefined functions",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The photoelectron spectrum of carbon has three equally sized",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. The 2p peak has the lowest energy.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Averaging the output of multiple decision trees helps _.",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Decrease bias",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "What is the dimensionality of the null space of the followin",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "When traveling north from the United States into Canada you\u2019",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Higher in the sky",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A 25 g sample of a liquid was heated to 95 \u00b0C and then quick",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. The sample temperature changed more than the water temperature did; therefore the",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is NOT supervised learning?",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Naive Bayesian",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "One end of a horizontal, massless spring is attached to a wa",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 0.24 mJ",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which of the following styles of fuzzer is more likely to ex",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Whitebox",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Magnesium has an atomic radius of 160 pm and a first ionizat",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 186 pm, 496 kJ/",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "_______________ is a popular tool used for network analysis ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. EtterPeak",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The __________ was a huge marketplace of Dark Web specifical",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Silk Road",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Say the incidence of a disease D is about 5 cases per 100 pe",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Should not set it to zero since otherwise (stochastic)",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "S(s) + O2(g) \u2192 SO2(g)",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. one atom of S reacts with one molecule of O2",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "MIT\u2019s Kerberos KDC server has a maximum ticket lifetime of 2",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. When a client connects to a server, the server compares",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A magnetic field is directed perpendicular to the plane of a",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.04 V",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The Milky Way is part of a giant supercluster with a diamete",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Laniakea",
+      "subject": "astronomy"
+    },
+    {
+      "question": "What does it mean to \"be stealthy\" during a penetration test",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A spring of force constant k is stretched a certain distance",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. 8k",
+      "subject": "college_physics"
+    },
+    {
+      "question": "How do astronomers think Jupiter generates its internal heat",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. nuclear fusion",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Encryption and decryption provide secrecy, or condentiality,",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. All of the above",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the following is true of a convolution kernel?",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Should not set it to zero since otherwise (stochastic)",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Imagine that the Earth was instantly moved to an orbit three",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. about 5.2 times longer",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A particle is constrained to move in a circle with a 10-mete",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 45\u00b0",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Hard materials such as silicon carbide, used for grinding wh",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. network crystals",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A sealed, rigid container contains three gases: 28.0 g of ni",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.33 atm",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "If the total energy of a particle of mass m is equal to twic",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. mc/2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Approximately how long does it take Pluto to orbit the Sun o",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Power emitted is 1/16 times as high;",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following is expected to have two or more reson",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. CCl2F2",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "In MD-5 the length of the message digest is",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 160",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Statement 1| The SVM learning algorithm is guaranteed to fin",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "After applying a regularization penalty in linear regression",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. L1 norm",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "A resistor in a circuit dissipates energy at a rate of 1 W. ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. 4 W",
+      "subject": "college_physics"
+    },
+    {
+      "question": "2Ag+(aq) + Fe(s) \u2192 2Ag(s) + Fe2+(aq) Which of the following ",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Increasing [Fe2+]",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A single-electron atom has the electron in the l = 2 state. ",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C",
+      "subject": "college_physics"
+    },
+    {
+      "question": "When a wireless user authenticates to any AP, both of them g",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. AP-handshaking",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A 2.35-gram sample was dissolved in water, and the chloride ",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 10.80%",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Of the following pairs of elements, which pair has the secon",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Chlorine, iodine",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is a clustering algorithm in machine ",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Expectation Maximization",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Based on periodic relationships, the concepts related to bon",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. H2O < H2S < H2Se",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The melting point of straight-chain hydrocarbons increases a",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Why is the Mars Exploration Rover Spirit currently tilted to",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Because one of its wheels broke.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following tasks can be best solved using Cluste",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Detecting fraudulent credit card transactions",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The specific rate constant, k, for a certain first-order rea",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The four big moons of Jupiter are Callisto Europa Ganymede a",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Io",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following best describes what discriminative ap",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. p(y|x, w)",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "What effect or effects would be most significant if the Moon",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Solar eclipses would be much rarer.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The sky is blue because",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. molecules scatter blue light more effectively than red light.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A machine learning problem involves four attributes plus a c",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 24",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "When was the telescope invented by Galileo?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 1609",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A heat pump is to extract heat from an outdoor environment a",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 1,100 J",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which is true about Batch Normalization?",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. After applying batch normalization, the layer\u2019s activations will",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which Nmap scan is does not completely open a TCP connection",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. ACK scan",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Most transition metals share a common oxidation state of +2.",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Transition metals all have a minimum of two unpaired",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "According to the kinetic-molecular theory of gases,",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. (A), (B), and (C) are part of",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Hund's rule requires that",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. no two electrons can pair up if there is an empty orb",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What tool can be used to perform SNMP enumeration?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. IP Network Browser",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the following does not contain oxygen?",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. An ether",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the pH of a solution made by dissolving 0.0300 mol o",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 4.74",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Why is Saturn almost as big as Jupiter despite its smaller m",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Saturn is further from the Sun thus cooler and therefore less",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The eigenvalues of a Hermitian operator are always",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. real",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which of the following molecules is a strong electrolyte whe",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. HBr",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A 25 g sample of a solid was heated to 100 \u00b0C and then quick",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. The sample temperature changed more than the water temperature did; therefore the",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Statement 1| In a Bayesian network, the inference results of",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "What is the significance of the 1:2:4 resonance in the Jupit",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Power emitted is 1/16 times as high;",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| The training error of 1-nearest neighbor classi",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following are the spatial clustering algorithms",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. All of the above",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "An atom has filled n = 1 and n = 2 levels. How many electron",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The so-called dark energy is a model to explain ...",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. the acceleration of the universe.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The openSSL implementation described in \u201cRemote Timing Attac",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The mean kinetic energy of the conduction electrons in metal",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The Pauli exclusion principle states that",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. no two electrons can have the same four quantum numbers",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A meter stick with a speed of 0.8c moves past an observer. I",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1.6 ns",
+      "subject": "college_physics"
+    },
+    {
+      "question": "A 10 kg box slides horizontally without friction at a speed ",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1 N",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which would be the easiest way to burn a copper penny?",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Hold the copper penny with crucible tongs, and",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A sand bag has a mass of 5kg and weight 50N on Earth. What i",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Mass 5kg weight 50N",
+      "subject": "astronomy"
+    },
+    {
+      "question": "How many electrons, neutrons, and protons are in an atom of ",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 24 electrons, 28 protons,",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The symbol for antimony is",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Sb",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which is not a similarity between Saturn and Jupiter's atmos",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. significant \"shear\" between bands of circulation at different latitudes",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A single-electron atom has the electron in the l = 2 state. ",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Statement 1| After mapped into feature space Q through a rad",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "A rod measures 1.00 m in its rest system. How fast must an o",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 0.80c",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Statement 1| The values of the margins obtained by two diffe",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "When a solid melts, the entropy change and enthalpy changes ",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. negative entropy change and a negative enthalpy change",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Light from a laser falls on a pair of very narrow slits sepa",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 2.0 mm",
+      "subject": "college_physics"
+    },
+    {
+      "question": "How do we know how old the Earth is?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. From radioactive dating of rocks and meteorites.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which form of encryption does WPA use?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. TKIP",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The rate of a chemical reaction is determined by",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. the rate-determining or slow step of the mechanism",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "An astronomer observes a very small moon orbiting a planet a",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Period of the orbit",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The four Primary Security Principles related to messages are",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Confidentiality, Integrity, Non repudiation and Aut",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Our current best observations show that Pluto has",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. no satellites.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "para-dichlorobenzene is used as \"mothballs.\" This compound c",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 2,4-dichlorobenzene",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the second most common element in the solar system?",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Hydrogen",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The Large Magellanic Cloud is ...",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. a dwarf galaxy orbiting the Milky Way.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A Mars year is approximately how many Earth years long?",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 4",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| The log-likelihood of the data will always incr",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Statement 1| Since the VC dimension for an SVM with a Radial",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Statement 1| The kernel density estimator is equivalent to p",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which factor s most important in determining the history of ",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. size of the planet",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Why does Earth have the strongest magnetic field among the t",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Under ideal conditions, the electric and magnetic fields ins",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. B = 0",
+      "subject": "college_physics"
+    },
+    {
+      "question": "On which planet in our solar system can you find the Great R",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Jupiter",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A solution of a weak base is titrated with a solution of a s",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Initially, the pH slowly decreases, then there is",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "At the present time, the temperature of the universe (i.e., ",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. one-half as distant as they are today",
+      "subject": "college_physics"
+    },
+    {
+      "question": "A net force F_A acts on object A, and a net force F_B acts o",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. F\\_B = 2F\\_A",
+      "subject": "college_physics"
+    },
+    {
+      "question": "What is the source of the material that causes meteor shower",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Near-Earth asteroids gradually disintegrate and spread out",
+      "subject": "astronomy"
+    },
+    {
+      "question": "How does a buffer overflow on the stack facilitate running a",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. By overwriting the return address to point to the location of that",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Changing which of the following will change the numerical va",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. The pressure of reactants",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following does authorization aim to accomplish?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Restrict what operations/data the user can access",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Statement 1| RELUs are not monotonic, but sigmoids are monot",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following is the strongest Br\u00f8nsted-Lowry acid?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. HBrO4",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "When the data must arrive at the receiver exactly as they we",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Message Integrity",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Argon can be liquefied at low temperature because of",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. the very low temperature",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Statement 1| The ID3 algorithm is guaranteed to find the opt",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Statement 1| CIFAR-10 classification performance for convolu",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Statement 1| Density estimation (using say, the kernel densi",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following is the correct order of increasing ac",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. HBrO < HClO < H2SeO3",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "For Kernel Regression, which one of these structural assumpt",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Whether kernel function is Gaussian versus triangular versus box-shaped",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "When collecting a gas over water, it is important to",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. correct for the vapor pressure of water",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A 50.0 mL sample of 0.0025 M HBr is mixed with 50.0 mL of 0.",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Radon is a health hazard because",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. it is a gas that can be inhaled and then it",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is considered a metalloid?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Si",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following reactions is expected to have the gre",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. HCl(aq) + NaOH(aq",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the general relationship between temperature and ent",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. There is a direct relationship, because at higher temperatures there is an",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The best type of laser with which to do spectroscopy over a ",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. a ruby laser",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Three steel containers hold gas samples. The containers are ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. The average speed of all the molecules is the same.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Atoms of four elements are examined: carbon, nitrogen, neon,",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A session symmetric key between two parties is used",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Multiple times",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Excited states of the helium atom can be characterized as pa",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. The Bohr model of the atom",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The negative muon, mu^-, has properties most similar to whic",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Meson",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Chlorine is often used to oxidize other substances. It makes",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. KMnO4",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The nebular theory of the formation of the solar system succ",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. asteroids Kuiper-belt comets and the O",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| The original ResNets and Transformers are feedf",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The AH Protocol provides source authentication and data inte",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Whole-system testing for security flaws and bugs",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A packet filter firewall filters at the",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Network or transport layer",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A and B are two events. If P(A, B) decreases while P(A) incr",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. P(B|A) decreases",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Moons cause/contribute to which of the following?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Moons contribute to all of the above.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The K-means algorithm:",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Converges to the global optimum if and only if the",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "A comet of mass m impacts the earth (mass M radius R) at the",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. m*v",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The star Betelgeuse is one of the brightest stars in the nig",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Cassiopeia",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Say the incidence of a disease D is about 5 cases per 100 pe",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.0368",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Planetary rings are",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. all of the above",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Consider the Lewis structures for the following molecules: C",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. CO32- and NO3-",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Determine the final temperature, in \u00b0C, of a sample of heliu",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 45\u00b0C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Formation of a solution can often be visualized as a three-s",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Steps 1 and 2 are exothermic, and",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following geometries corresponds to a substance",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Tetrahedron",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Earth has been gradually warming over the past few decades. ",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. human activities that are increasing the concentration of greenhouse gases in",
+      "subject": "astronomy"
+    },
+    {
+      "question": "When using the ideal gas law, standard conditions for temper",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 0 \u00b0C and 760 torr",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "An ester is made by reacting",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. an amine and an alcohol",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Characteristic X rays, appearing as sharp lines on a continu",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The first ionization energy for a neutral atom of chlorine i",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The equilibrium constant, Kc, for the dissociation of HI int",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 4.58 mol/L",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "____________________ is the anticipation of unauthorized acc",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Wireless security",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the following molecules is expected to have the hig",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. CH3CH2CH2CH2Br",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is not an example of presentation lay",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Weak or non-existent authentication mechanisms",
+      "subject": "computer_security"
+    },
+    {
+      "question": "An integer overflow occurs when",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. an integer expression's result \"wraps around\"; instead of",
+      "subject": "computer_security"
+    },
+    {
+      "question": "For polynomial regression, which one of these structural ass",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. The polynomial degree",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Of the following oxo acids, which is predicted to be the str",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. HClO3",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Applications developed by programming languages like ____ an",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. C, C++",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The name for CH3CHBrCHClCH2CH3 is",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 2-bromo, 3-chlorop",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A student makes 10 one-second measurements of the disintegra",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Electrons producing \u010cerenkov radiation\nB. Electrons coll",
+      "subject": "college_physics"
+    },
+    {
+      "question": "One astronomical unit (AU) is equal to approximately ...",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 130 million km",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A gas cell with an optical path length of 10 cm is placed in",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1.00063",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Each resonance form of the nitrate ion, NO3-, has how many s",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1 sigma and 2 pi",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A digital signature needs a",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Public-key system",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which one of these constellations is not located along the M",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Leo",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Why is it thought that the climate on Mars changed when the ",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. without a strong magnetic field the solar wind stripped away most of the",
+      "subject": "astronomy"
+    },
+    {
+      "question": "What element is most common among the Jovian Planets?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Hydrogen",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The bond length between any two nonmetal atoms is achieved u",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Where the energy of interaction between the atoms is at its minimum value",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Consider the Lewis structures for the following molecules: C",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A sample of solid MgCl2 would be most soluble in which of th",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. LiOH(aq)",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Neutral atoms of chlorine are bombarded by high-energy photo",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1s",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Suppose we like to calculate P(H|E, F) and we have no condit",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. P(E, F), P(H), P(E",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Let HH be a Merkle-Damgard hash function is H:X^{\\leq L} \\to",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. A procedure for testing libraries or other program components for vulnerabilities",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Solvents A and B form an ideal solution. Solvent A has a vap",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 568 torr",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following was not cited as evidence for life in",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Amino acids with a preferred orientation or \"chir",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A magnetic field is directed perpendicular to the plane of a",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.04 V",
+      "subject": "college_physics"
+    },
+    {
+      "question": "As the number of training examples goes to infinity, your mo",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Lower variance",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Statement 1| Highway networks were introduced after ResNets ",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "In Message Condentiality, the transmitted message must make ",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. A procedure for testing libraries or other program components for vulnerabilities",
+      "subject": "computer_security"
+    },
+    {
+      "question": "An observer O at rest midway between two sources of light at",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.13c",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which would be the easiest way to burn an iron nail?",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Hold an iron nail with crucible tongs, and heat",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The axis of the Earth is tilted at an angle of approximately",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. 23.5 degrees",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following is not a good measure of relative int",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Heat of vaporization",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "If you lived on Venus what phases of the Earth would you see",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. New only",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Identify the Br\u00f8nsted-Lowry conjugate acid-base pair in the ",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. H3O+ and OH-",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A solution of sulfurous acid, H2SO3, is present in an aqueou",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. [SO32-] > [HSO3-]",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "During the study of the reaction A \u2192 2B, a chemist construct",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Rate = k[A]^-1",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following moons is NOT one of the Galilean moon",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Dione",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A mechanism is a sequence of elementary reactions that add u",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. an intermediate",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The message must be encrypted at the sender site and decrypt",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Sender Site",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which one of the following is equal to P(A, B, C) given Bool",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. P(A | B) * P(B | C)",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "White light is normally incident on a puddle of water (index",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 500 nm",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Suppose you are given an EM algorithm that finds maximum lik",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Both",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "A _________________ may be a hidden part of a program, a sep",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. backdoor",
+      "subject": "computer_security"
+    },
+    {
+      "question": "All of the following have been cited as evidence for the Gia",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. The Moon was once entirely molten.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which PyTorch 1.8 command(s) produce $10\\times 5$ Gaussian m",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Should not set it to zero since otherwise it will cause overf",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following deals with network intrusion detectio",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Snort",
+      "subject": "computer_security"
+    },
+    {
+      "question": "If you know both the actual brightness of an object and its ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Its distance from you.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The Message condentiality or privacy means that the sender a",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Conditionality",
+      "subject": "computer_security"
+    },
+    {
+      "question": "To verify a digital signature we need the",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Sender's Public key",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A photon strikes an electron of mass m that is initially at ",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Electrons producing \u010cerenkov radiation\nB. Electrons coll",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The openSSL implementation described in \u201cRemote Timing Attac",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "computer_security"
+    },
+    {
+      "question": "0.25 mol of a weak, monoprotic acid is dissolved in 0.25 L o",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 3.66",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A particle decays in 2.0 ms in its rest frame. If the same p",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Electrons producing \u010cerenkov radiation\nB. Electrons coll",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Protons used in cancer therapy are typically accelerated to ",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 0.60mc^2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Let I = (S,V)I=(S,V) be a MAC. Suppose S(k,m)S(k,m) is alway",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. No, an attacker can simply guess the tag for messages",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The weight percent of sodium hydroxide dissolved in water is",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 0.311",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "How are planetary rings made?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. From the dismantling of small moons by impacts",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Mars has an atmosphere that is almost entirely carbon dioxid",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. the atmosphere on Mars is too thin to trap a significant amount of",
+      "subject": "astronomy"
+    },
+    {
+      "question": "How is IP address spoofing detected?",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Installing and configuring an IDS that can read the IP",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Hydrogen fluoride, HF, is a liquid at 15\u00b0C. All other hydrog",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Fluorine has a very high electronegativity",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The speed of light inside of a nonmagnetic dielectric materi",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 1.2 x 10^9 m/s",
+      "subject": "college_physics"
+    },
+    {
+      "question": "______________ is a widespread app\u2019s coding mistake made by ",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Buffer-overrun",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which pair of reactants will have no net ionic equation (tha",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. KOH + HClO4",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following lists the ingredients of the solar ne",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. light gases (H He) hydrogen compounds (H",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of these has NOT been one of the main hypotheses consi",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Earth was rotating so rapidly that the Moon split from it.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following is not a transport layer vulnerabilit",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Unauthorized network access",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The two moons of Mars are called ...",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Phobos and Tritos",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A student has a liter of a 0.100 M solution of a strong acid",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. a weak acid",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following characteristics would not necessarily",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. It has different elemental composition than earth",
+      "subject": "astronomy"
+    },
+    {
+      "question": "What does EXE do when the STP solver times out on a constrai",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Restart STP and retry the query, up to a limited",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A nonrelativistic particle with a charge twice that of an el",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 3.3 * 10^-22 kg",
+      "subject": "college_physics"
+    },
+    {
+      "question": "20000 years from now ...",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. The Moon will be closer to the Earth and the Earth's",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Two students perform an experiment in which they drop a ball",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. 20%",
+      "subject": "college_physics"
+    },
+    {
+      "question": "How many moles of propane (C3H8) are there in 6.2 g of propa",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 14.1 mol",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Old operating systems like _______ and NT-based systems have",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. UNIX",
+      "subject": "computer_security"
+    },
+    {
+      "question": "During the investigation of a chemical reaction by a chemist",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. \u0394H < 0, \u0394S < 0",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Statement 1| The ReLU's gradient is zero for $x<0$, and the ",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "If the Sun were suddenly replaced by a black hole of the sam",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. The planets would oscillate about their former elliptical or",
+      "subject": "college_physics"
+    },
+    {
+      "question": "A grating spectrometer can just barely resolve two wavelengt",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. 250",
+      "subject": "college_physics"
+    },
+    {
+      "question": "A solution contains a mixture of four different compounds: K",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. KCl(aq)",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The most massive subatomic particle is the",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. proton",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the source of the material that causes meteor shower",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Asteroid impacts elsewhere in the solar system throw sand-sized",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Why do scientists think Mars was once warmer and wetter?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. There are many geologic features on Mars that are difficult to",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The ______________ can cost you money, by sending text messa",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. SMS Trojan",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A liquid element that is a dark-colored, nonconducting subst",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. mercury",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is false?",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. A bounding box with an IoU (intersection over union",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Why is it that the compiler does not know the absolute addre",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. As a stack-allocated variable, it could have different addresses",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Statement 1| Overfitting is more likely when the set of trai",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "How does the greenhouse effect work?",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Greenhouse gases absorb infrared light from the Sun which",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following should be named using Roman numerals ",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. K2Cr2O7",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The rest mass of a particle with total energy 5.0 GeV and mo",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. 1.0 GeV/c^2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Why is Saturn almost as big as Jupiter despite its smaller m",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Saturn is further from the Sun thus cooler and therefore less",
+      "subject": "astronomy"
+    },
+    {
+      "question": "White light is normally incident on a puddle of water (index",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 500 nm",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Suppose we have the following objective function: $\\argmin_{",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Should not set it to zero since otherwise it will cause overf",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Dissolving one mole of each of the following compounds in wa",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. HNO2",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Suppose Unix did not provide a way of passing file descripto",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. True, True",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The molar heat of vaporization of water is +43.9 kJ. What is",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 8.49 J mol^-1 K^-1",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the rank of the following matrix? A = [[1, 1, 1], [1",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B.",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "What is an alpha particle?",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Another name for a helium nucleus",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following processes is an irreversible reaction",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. CH4(g) + O2(g) \u2192 CO",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which net ionic equation below represents a possible reactio",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Mg(s) + Cr(NO3)3(",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is an authentication method?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. All of the above",
+      "subject": "computer_security"
+    },
+    {
+      "question": "How do we think the \"hot Jupiters\" around other stars were f",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. They formed as gas giants beyond the frost line and then",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following most likely explains why Venus does n",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. It does not have a metallic core.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Let suppose a search box of an application can take at most ",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. buffer",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Statement 1| For a continuous random variable x and its prob",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "A sample of a compound known to consist of only carbon, hydr",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. C2H4O",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The units for the rate of a chemical reaction are",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. it depends on the particular reaction",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is/are NOT caused by orbital resonanc",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Breaking of small Jovian moons to form ring materials",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| As of 2020, some models attain greater than 98%",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "A certain radioactive material has a half-life of 36 minutes",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 1.5 \u00d7 10^-4 grams",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What are the types of scanning?",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Port, network, and services",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Statement 1| Traditional machine learning results assume tha",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. True, True",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Public key encryption is advantageous over Symmetric key Cry",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Key exchange",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Excited states of the helium atom can be characterized as pa",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. The Bohr model of the atom",
+      "subject": "college_physics"
+    },
+    {
+      "question": "A ___________ is a method in which a computer security mecha",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. backdoor",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A three-dimensional harmonic oscillator is in thermal equili",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. (1/2) k T",
+      "subject": "college_physics"
+    },
+    {
+      "question": "A special tool is necessary for entering the network which i",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Tor browser",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the jovian planets have rings?",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Saturn",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Jupiter's orbital distance is roughly 5 AU. How many times b",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 50 times brighter",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Bromine has a normal boiling point of 59 \u00b0C, and iodine boil",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. The I2 electron clouds are much more polarizable than the Br",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "By definition, the electric displacement current through a s",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. rate of change of the electric flux through S",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which of the following statements about sidereal and solar d",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. The time it takes for the Moon to make one circuit of our",
+      "subject": "astronomy"
+    },
+    {
+      "question": "You've made a scientific theory that there is a force betwee",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. You can never prove your theory to be correct only \"yet",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The digest created by a hash function is normally called a",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Modification detection code (MDC)",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Why are the inner planets made of denser materials than the ",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. When the solar nebula formed a disk materials naturally segreg",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Silver metal, often amalgamated with mercury, is used to red",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Na(s)",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The simplest alkene has",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. at least two pi bonds",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "In the diamond structure of elemental carbon, the nearest ne",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. hexagon",
+      "subject": "college_physics"
+    },
+    {
+      "question": "K-fold cross-validation is",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Should not set it to zero since otherwise (stochastic)",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The Pleiades is an open star cluster that plays a role in ma",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 5",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| The back-propagation algorithm learns a globall",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Suppose we would like to perform clustering on spatial data ",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Density-based clustering",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Electromagnetic radiation emitted from a nucleus is most lik",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. gamma rays",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Which of the following is expected to have the largest bond ",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. S\u2013O",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the pH of a solution prepared by dissolving 0.1665 m",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 5.4 \u00d7 10^-3",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following are most vulnerable to injection atta",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. SQL queries based on user input",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Life on Earth originated from",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. the Earth's oceans.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| The BLEU metric uses precision, while the ROGUE",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Where is the crater from the impact that is believed to be r",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Chicxulub Crater Yucatan Peninsula in",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A stock solution of 12.0 M sulfuric acid is made available. ",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Add 33.3 mL of water to the fl",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "You are training a linear regression model for a simple esti",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Bias increase ; Variance decrease",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following methods has led to the most discoveri",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. detecting the gravitational effect of an orbiting planet by looking",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Choose the reaction expected to have the greatest decrease i",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. CH4(g) + 2 O2(g)",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Statement 1| Linear regression estimator has the smallest va",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Examining data obtained from mass spectrometry supports whic",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. The existence of isotopes",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Where are the Trojan asteroids located?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. along Jupiter's orbit 60\u00b0 ahead of and",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Fluorine has a normal boiling point of 85 K, and chlorine bo",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. The mass of chlorine is much greater than the mass of",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What type of radiation causes a black hole to evaporate over",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Hawking radiation",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Encapsulating Security Payload (ESP) belongs to which Intern",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Transport Layer Security Protocol",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the following is not true?",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Neptune and Pluto won't collide because of",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Based on the paper \u201cClick Trajectories: End-to-End Analysis ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D",
+      "subject": "computer_security"
+    },
+    {
+      "question": "You observe the visible spectrum of a star viewed through a ",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. You see the star's blackbody spectrum with absorption lines due",
+      "subject": "astronomy"
+    },
+    {
+      "question": "When an ideal gas is allowed to expand isothermally, which o",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. q = 0",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Based on the paper \u201cSoK: SSL and HTTPS: Revisiting past chal",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. False",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Why can't we see the Sun's corona except during total solar ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. It's too diffuse",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The disadvantage of Grid search is",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. It can not be applied to non-differentiable functions.",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The emission spectrum of the doubly ionized lithium atom Li+",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. decreased by a factor of 81",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Previous IAAC rounds featured Proxima/Alpha Centauri as clos",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Proxima Centauri is the closest star to the Earth",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following are benefits of penetration testing?",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Full evidence of security: a clean test means a secure system",
+      "subject": "computer_security"
+    },
+    {
+      "question": "You are given a message (m) and its OTP encryption (c). Can ",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Yes, the key is k = m xor c.",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The model obtained by applying linear regression on the iden",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. All of the above",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "MLE estimates are often undesirable because",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. They have high variance",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The suspension cable of a 1,000 kg elevator snaps, sending t",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. 1,000,000 J",
+      "subject": "college_physics"
+    },
+    {
+      "question": "A __________ is a sequential segment of the memory location ",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. buffer",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Unpolarized light is incident on a pair of ideal linear pola",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 100%",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Suppose you live on the Moon. How long is a day (i.e. from s",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 24 hours",
+      "subject": "astronomy"
+    },
+    {
+      "question": "There are a number of experiments for the determination of t",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. The heat of formation of the gas",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is true about any system that undergo",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The oxidation number of chlorine in the perchlorate ion, ClO",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 2",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Joseph Priestly discovered oxygen gas by the decomposition o",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.100 mol",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following best explains why the ionization of a",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Energy contained in the light can be used to overcome the Coul",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What Mars mission will be landing on May 25 2008 and will di",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Phoenix Mars Lander",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Protons used in cancer therapy are typically accelerated to ",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 0.60mc^2",
+      "subject": "college_physics"
+    },
+    {
+      "question": "___________________ began to show up few years back on wirel",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. WPS",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The dimerization of NO2(g) to N2O4(g) is an endothermic proc",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Decreasing the temperature",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The quantum efficiency of a photon detector is 0.1. If 100 p",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. an average of 10 times, with an rms dev",
+      "subject": "college_physics"
+    },
+    {
+      "question": "What are support vectors?",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. The examples farthest from the decision boundary.",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Nitrous acid is a weak acid, while nitric acid is a much str",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is not one of nor follows directly fr",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. A planet travels faster when it is nearer to the Sun and",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Why do Uranus and Neptune have blue methane clouds but Jupit",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. The relatively slow rotation of Uranus and Neptune allows",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following is/are common feature(s) of all fresh",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. A and B only",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Under which conditions will a real gas most closely behave a",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. High temperature and high pressure",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Let us say that we have computed the gradient of our cost fu",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. O(N)",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Why is the sky blue?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Because the atmosphere preferentially scatters short wavelengths.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| Besides EM, gradient descent can be used to per",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Why would a ping sweep be used?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. To identify live systems",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Calculate the ratio of the solar radiation flux on Mercury's",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Power emitted is 1/16 times as high;",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The best type of laser with which to do spectroscopy over a ",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. a ruby laser",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Why do jovian planets bulge around the equator that is have ",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. Their internal heat sources exert a pressure against the sides of the",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which among the following prevents overfitting when we perfo",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. The use of sampling with replacement as the sampling technique",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Suppose you want to use fuzzing on a program to try to find ",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. You should not use a grammar-based fuzzer,",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The so-called \u201cbigfoot\u201d on Mars was actually a rock that was",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Power emitted is 1/16 times as high;",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The lunar maria are:",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. the bright regions on the Moon",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Why did Ptolemy have the planets orbiting Earth on \u2018circles ",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. To explain why more distant planets take longer to make a circuit through",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which statement about an atom is not true:",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. The electrons can only orbit at particular energy levels.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| Layer Normalization is used in the original Res",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. True, True",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "The coefficient of static friction between a small coin and ",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.024 m",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Of the following, the most important experimental informatio",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. the emission spectrum of the elements, particularly hydrogen",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Most people use C\u00b0(degree Celsius) to measure everyday tempe",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 250 Kelvin",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Let F: K \\times R \\to MF:K\u00d7R\u2192M be a secure PRF. For m \\in Mm",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Yes, whenever F is a secure PRF",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Helium effuses through a pinhole 5.33 times faster than an u",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. CH4",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Carbon exists in various forms called allotropes. Which of t",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. soot",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "According to the BCS theory, the attraction between Cooper p",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. interactions with the ionic lattice",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Sunspots are black regions that temporarily appear on the Su",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. 11",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which planet(s) in the solar system has/have active plate te",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Earth",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which of the following can only be used when training data a",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. The centroid method.",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Statement 1| The set of all rectangles in the 2D plane (whic",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "A tube of water is traveling at 1/2 c relative to the lab fr",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 2/3 c",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Under certain conditions, a beam of electrons impinging on a",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 10 eV",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Can a stream cipher have perfect secrecy?",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. No, there are no ciphers with perfect secrecy",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the following is/are true?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. A and D",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| The softmax function is commonly used in mutlic",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "In addition to the conditions required for any solar eclipse",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. The Moon's umbra must touch the area where you",
+      "subject": "astronomy"
+    },
+    {
+      "question": "How do astronomers think Jupiter generates its internal heat",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. nuclear fusion in the core",
+      "subject": "astronomy"
+    },
+    {
+      "question": "SO2Cl2 \u2192 SO2(g) + Cl2(g) At 600 K, SO2Cl2 will decompose to ",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Increasing the temperature at which the reaction occurs",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "In Brumley and Boneh\u2019s paper on side-channel attacks, why do",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Blinding randomizes the ciphertext being decrypted, thus",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The electrolysis of molten magnesium bromide is expected to ",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. magnesium at the anode and bromine at the",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Suppose the angular separation of two stars is smaller than ",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. The two stars will look like a single point of light.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "NH4+(aq) + NO2- (aq) \u2192 N2(g) + 2H2O(l) Increasing the temper",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Alternate reaction pathways become available at higher temperatures.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the so-called bolometric luminosity in astronomy?",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. The luminosity integrated over all wavelengths.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Nickel (Z = 28, A = 59) has a first ionization energy of 737",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. 804 kJ/mol and 29",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Given a Neural Net with N input nodes, no hidden layers, one",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. All of the above",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "A/an ___________ is a program that steals your logins & pass",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. IM \u2013 Trojans",
+      "subject": "computer_security"
+    },
+    {
+      "question": "A certain reaction is nonspontaneous under standard conditio",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. \u0394H < 0, \u0394S < 0",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Suppose Unix did not provide a way of passing file descripto",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. True, True",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The net ionic equation expected when solutions of NH4Br and ",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Ag+(aq) + Br-(aq) \u2192 Ag",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Chemists often ascribe the macroscopic properties of solids ",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. a covalent or network crystal",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "An unknown substance is found to have a high melting point. ",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. nonpolar covalent bonding",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The energy required to remove both electrons from the helium",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 24.6 eV",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Potassium-40 is a minor isotope found in naturally occurring",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 21 neutrons, 19 protons,",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "You cannot prepare a buffer by",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. mixing a solution of a strong base with a strong acid",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following may need to be balanced using the ion",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. BaCl2 + Al2(SO4)3 \u2192 Al",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Besides large astronomical objects astrophysicists are also ",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. \u03c0 Pions",
+      "subject": "astronomy"
+    },
+    {
+      "question": "S(s) + O2(g) \u2192 SO2(g)",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "If the absolute temperature of a blackbody is increased by a",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Increases by a factor of 9.",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Cerium(III) sulfate, Ce2(SO4)2, is less soluble in hot water",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. The heat of solution for cerium(III) sulfate",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the molarity of a sodium hydroxide solution that req",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.0641 M",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following countries has sent landers to Venus?",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. A and B",
+      "subject": "astronomy"
+    },
+    {
+      "question": "What is the ionization constant, Ka, for a weak monoprotic a",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 2.0 \u00d7 10^-3",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "What is the molecular mass of a gas that has a density of 2.",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. 53.0 g/mol",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "A sender must not be able to deny sending a message that was",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Message Nonrepudiation",
+      "subject": "computer_security"
+    },
+    {
+      "question": "If your training loss increases with number of epochs, which",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Regularization is too high and model is underfitting",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Find the best approximation for the surface temperature of t",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. Power emitted is 1/16 times as high;",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The terrestrial planet cores contain mostly metal because",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Metals sank to the center during a time when the interiors",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Given two Boolean random variables, A and B, where P(A) = 1/",
+      "expected": "D",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 1/4",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Two spaceships approach Earth with equal speeds, as measured",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 0.4c",
+      "subject": "college_physics"
+    },
+    {
+      "question": "0.0025 mol of a weak, monoprotic acid is dissolved in 0.250 ",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 4.26",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "London dispersion forces are caused by",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. temporary dipoles created by the position of electrons around the nucle",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Atoms of four elements are examined: carbon, nitrogen, neon,",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Nitrogen",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Formation of a solution can often be visualized as a three-s",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Molecules with similar molecular masses are required to form solutions.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Statement 1| Word2Vec parameters were not initialized using ",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following is a balanced chemical reaction?",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Na2SO4 + Ba(NO3)2 \u2192 Ba",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following is not a block cipher operating mode?",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. CBF",
+      "subject": "computer_security"
+    },
+    {
+      "question": "The distance between the Earth and the star Altair is one mi",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. 1.5 x 1017 meters",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The second cosmic velocity (or escape velocity) is the speed",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. v = sqrt(GM/R)",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| RoBERTa pretrains on a corpus that is approxima",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "From shortest to longest wavelength which of the following c",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. gamma rays X rays ultraviolet visible light",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Consider an electron in the n = 4, l = 1 state in hydrogen. ",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. n = 2, l = 0",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Starting with a stock solution of 18.0 M H2SO4, what is the ",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Add 167 mL of the stock solution to the",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Approximately how many half-lives will it take to reduce 10.",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The driver of a police car hears an echo of the car\u2019s siren ",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 606 Hz",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The hydrogen lines observed in the spectrum of the quasar 3C",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Electrons producing \u010cerenkov radiation\nB. Electrons coll",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Statement 1| For any two variables x and y having joint dist",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Approximately how far away is the Andromeda Galaxy?",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Power emitted is 1/16 times as high;",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Nitrous acid, HNO2, has a pKa value of 3.3. If a solution of",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. [HNO2] > [NO2-]",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "In determining the order for reactant A in a certain reactio",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. 2",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "By locating the north celestial pole (NCP) in the sky how ca",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. The azimuth of the NCP is the angular distance from",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The surface of the Sun has a temperature close to 6,000 K an",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 10 mm",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Less than 1/1000 of the mass of any atom is contributed by",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. the electrons",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Statement 1| In AdaBoost weights of the misclassified exampl",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Venus shows evidence of which of the following surface proce",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. A B and C",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The sub key length at each round of DES is__________",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. 56",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Blue light of wavelength 480 nanometers is most strongly ref",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. 150 nm",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The Arrhenius equation may be used to determine",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. all of the above",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which is not an essential requirement for life as we know it",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. A and B",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Using fundamental trends in electronegativity and bond stren",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. HI",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Chemical reactions can be classified as either heterogeneous",
+      "expected": "C",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. C2H2(g) + 5N2O",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "An airplane drops a payload while traveling due north, paral",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 100 m/s north and 40 m",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Consider the Lewis structures for the following molecules: C",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. CO32-, NO2- and NO3-",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Two identical satellites, A and B, are in circular orbits ar",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. sqrt(2)",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Why are Cepheid stars relevant for astronomers?",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. To measure galactic distances.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "To prepare a buffer, all of the following are needed except",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. triple-distilled water",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Monatomic ions of the representative elements are often",
+      "expected": "C",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. very soluble",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Statement 1| L2 regularization of linear models tends to mak",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. True, True",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "What are the conditions necessary for a terrestrial planet t",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. both a molten metallic core and reasonably fast rotation",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Which is correct about the calcium atom?",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. It contains 20 protons and neutrons.",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Approximately how old is the surface of Venus?",
+      "expected": "A",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 4.5 billion years.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| The Stanford Sentiment Treebank contained movie",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Consider three identical, ideal capacitors. The first capaci",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. Electrons producing \u010cerenkov radiation",
+      "subject": "college_physics"
+    },
+    {
+      "question": "PCl3(g) + Cl2(g) \u2194 PCl5(g) \u0394H = -92.5 kJ/mol In which of the",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. Increasing the temperature",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "The term Schwarzschild radius usually describes properties o",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. black holes.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Message authentication is a service beyond",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Message Integrity",
+      "subject": "computer_security"
+    },
+    {
+      "question": "Which of the following substances has an asymmetrical molecu",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. SF4",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Suppose that Alice and Bob sent confidential text messages t",
+      "expected": "C",
+      "predicted": "C",
+      "ok": true,
+      "raw": "C. Forward secrecy.",
+      "subject": "computer_security"
+    },
+    {
+      "question": "What defines the habitable zone around a star?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. the region around a star where liquid water can potentially exist on planet",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| When learning an HMM for a fixed set of observa",
+      "expected": "A",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Planet X orbits its sun once every 100 Earth days and rotate",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. There is no solar day Planet X is tidally locked",
+      "subject": "astronomy"
+    },
+    {
+      "question": "A rod measures 1.00 m in its rest system. How fast must an o",
+      "expected": "B",
+      "predicted": "D",
+      "ok": false,
+      "raw": "D. 0.80c",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The constellation ... is a bright W-shaped constellation in ",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Cygnus",
+      "subject": "astronomy"
+    },
+    {
+      "question": "What is true for a type-Ia (\"type one-a\") supernova?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. This type occurs in binary systems.",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The rate law may be written using stoichiometric coefficient",
+      "expected": "C",
+      "predicted": "B",
+      "ok": false,
+      "raw": "B. Acid-base reactions",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Sulfurous acid is a weak acid, while sulfuric acid is a much",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. the O\u2013H bonds in sulfuric acid are much we",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "An object is thrown horizontally from the open window of a b",
+      "expected": "D",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 10.0 m",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Light of variable frequency shines on the metal surface of a",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. work function of the metal is proportional to the frequency",
+      "subject": "college_physics"
+    },
+    {
+      "question": "At 20\u00b0C, a pipe open at both ends resonates at a frequency o",
+      "expected": "B",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. 433 Hz",
+      "subject": "college_physics"
+    },
+    {
+      "question": "_______________ is the central node of 802.11 wireless opera",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. Access Point",
+      "subject": "computer_security"
+    },
+    {
+      "question": "As the life of a star progresses heavy elements are produced",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. H \u2192 He \u2192 Li \u2192 N \u2192 O \u2192 Si \u2192 Fe",
+      "subject": "astronomy"
+    },
+    {
+      "question": "The emission spectrum of the doubly ionized lithium atom Li+",
+      "expected": "A",
+      "predicted": "C",
+      "ok": false,
+      "raw": "C. decreased by a factor of 81",
+      "subject": "college_physics"
+    },
+    {
+      "question": "The name of the black hole in the center of our Milky Way is",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. Sagittarius A*",
+      "subject": "astronomy"
+    },
+    {
+      "question": "Statement 1| Support vector machines, like logistic regressi",
+      "expected": "B",
+      "predicted": "B",
+      "ok": true,
+      "raw": "B. False, False",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Which of the following is/are true regarding an SVM?",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A, B, C",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "A sample of liquid NH3 is brought to its boiling point. Whic",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. The N-H bonds within the NH3 molecules break",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following has an octet of electrons around the ",
+      "expected": "B",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. CO2",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "In which of the following is the negative end of the bond wr",
+      "expected": "D",
+      "predicted": "A",
+      "ok": false,
+      "raw": "A. O\u2014S",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "question": "Which of the following ions CANNOT be used as a dopant in ge",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. B",
+      "subject": "college_physics"
+    },
+    {
+      "question": "Statement 1| The F1 score can be especially useful for datas",
+      "expected": "A",
+      "predicted": "A",
+      "ok": true,
+      "raw": "A. True, True",
+      "subject": "machine_learning"
+    },
+    {
+      "question": "Mars might be a place for future human explorations. However",
+      "expected": "D",
+      "predicted": "D",
+      "ok": true,
+      "raw": "D. CO2",
+      "subject": "astronomy"
+    }
+  ]
+}

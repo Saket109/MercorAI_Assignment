@@ -1,0 +1,27 @@
+{
+  "college_physics": {
+    "fewshot": 11,
+    "test": 102,
+    "path": "/Users/saketahlawat/MercorAI_Test/improve/data/college_physics.json"
+  },
+  "machine_learning": {
+    "fewshot": 11,
+    "test": 112,
+    "path": "/Users/saketahlawat/MercorAI_Test/improve/data/machine_learning.json"
+  },
+  "high_school_chemistry": {
+    "fewshot": 22,
+    "test": 203,
+    "path": "/Users/saketahlawat/MercorAI_Test/improve/data/high_school_chemistry.json"
+  },
+  "computer_security": {
+    "fewshot": 11,
+    "test": 100,
+    "path": "/Users/saketahlawat/MercorAI_Test/improve/data/computer_security.json"
+  },
+  "astronomy": {
+    "fewshot": 16,
+    "test": 152,
+    "path": "/Users/saketahlawat/MercorAI_Test/improve/data/astronomy.json"
+  }
+}

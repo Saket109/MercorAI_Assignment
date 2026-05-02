@@ -1,0 +1,195 @@
+{
+  "ablation": [
+    {
+      "name": "bare_0shot",
+      "accuracy_pct": 36.32,
+      "ci_95": [
+        32.88,
+        39.91
+      ],
+      "correct": 243,
+      "total": 669,
+      "elapsed_s": 399.8,
+      "delta": 0.0
+    },
+    {
+      "name": "instruct_0shot",
+      "accuracy_pct": 44.84,
+      "ci_95": [
+        41.11,
+        48.73
+      ],
+      "correct": 300,
+      "total": 669,
+      "elapsed_s": 366.8,
+      "delta": 8.52
+    },
+    {
+      "name": "instruct_5shot",
+      "accuracy_pct": 45.44,
+      "ci_95": [
+        42.0,
+        49.18
+      ],
+      "correct": 304,
+      "total": 669,
+      "elapsed_s": 372.6,
+      "delta": 9.12
+    },
+    {
+      "name": "instruct_5shot_norm",
+      "accuracy_pct": 45.44,
+      "ci_95": [
+        42.0,
+        49.18
+      ],
+      "correct": 304,
+      "total": 669,
+      "elapsed_s": 385.7,
+      "delta": 9.12
+    }
+  ],
+  "significance": {
+    "observed_delta_pct": 9.12,
+    "p_value": 0.0,
+    "significant": true,
+    "n_permutations": 5000
+  },
+  "before_after": [
+    {
+      "question": "Which of the following is true about any system that undergo",
+      "subject": "college_physics",
+      "expected": "C",
+      "base_pred": "D",
+      "base_raw": "D. The entropy of the system and its environment must increase.",
+      "opt_pred": "C",
+      "opt_raw": "C"
+    },
+    {
+      "question": "A proxy rewall lters at the",
+      "subject": "computer_security",
+      "expected": "B",
+      "base_pred": "A",
+      "base_raw": "A proxy rewall filters at the Application layer.",
+      "opt_pred": "B",
+      "opt_raw": "B. Application layer"
+    },
+    {
+      "question": "Under certain conditions, a beam of electrons impinging on a",
+      "subject": "college_physics",
+      "expected": "C",
+      "base_pred": null,
+      "base_raw": "The kinetic energy of the electrons needed to see the diffraction",
+      "opt_pred": "C",
+      "opt_raw": "C. 10 eV"
+    },
+    {
+      "question": "The visible part of the electromagnetic spectrum is between ",
+      "subject": "astronomy",
+      "expected": "C",
+      "base_pred": "D",
+      "base_raw": "D. 420 to 810 nm.",
+      "opt_pred": "C",
+      "opt_raw": "C. 380 to 740 nm."
+    },
+    {
+      "question": "The belts and zones of Jupiter are",
+      "subject": "astronomy",
+      "expected": "B",
+      "base_pred": "A",
+      "base_raw": "A. names for the layers of gaseous and metallic hydrogen",
+      "opt_pred": "B",
+      "opt_raw": "B. Alternating bands of rising and falling air at different latitudes."
+    },
+    {
+      "question": "Consider the paper Native Client: A Sandbox for Portable, Un",
+      "subject": "computer_security",
+      "expected": "A",
+      "base_pred": "D",
+      "base_raw": "D. all indirect jumps (via an address in a register or variable",
+      "opt_pred": "A",
+      "opt_raw": "A. all instructions that modify segment state"
+    },
+    {
+      "question": "Three half-lives after an isotope is prepared,",
+      "subject": "high_school_chemistry",
+      "expected": "C",
+      "base_pred": "B",
+      "base_raw": "B. 25% of the isotope decayed",
+      "opt_pred": "C",
+      "opt_raw": "C. 12.5% of the isotope is left"
+    },
+    {
+      "question": "Which of the following is a radioactive element?",
+      "subject": "high_school_chemistry",
+      "expected": "C",
+      "base_pred": null,
+      "base_raw": "The radioactive element among the options is C. Am (Americium",
+      "opt_pred": "C",
+      "opt_raw": "C. Am"
+    },
+    {
+      "question": "What is the work involved if a gas in a 2.0-liter container ",
+      "subject": "high_school_chemistry",
+      "expected": "A",
+      "base_pred": null,
+      "base_raw": "The work involved in this process can be calculated using the ideal gas law,",
+      "opt_pred": "A",
+      "opt_raw": "A. -3.2 L atm"
+    },
+    {
+      "question": "Which of the following is a reduction half-reaction? (1) Cu2",
+      "subject": "high_school_chemistry",
+      "expected": "C",
+      "base_pred": "A",
+      "base_raw": "A. 1 only because copper(II) ions are reduced",
+      "opt_pred": "C",
+      "opt_raw": "C. 1 and 2 because they both reduce copper ions"
+    },
+    {
+      "question": "A 3-microfarad capacitor is connected in series with a 6-mic",
+      "subject": "college_physics",
+      "expected": "A",
+      "base_pred": null,
+      "base_raw": "To find the total energy stored in the two capacitors, we need to",
+      "opt_pred": "A",
+      "opt_raw": "A. 0.09 J"
+    },
+    {
+      "question": "Atoms of four elements are examined: carbon, nitrogen, neon,",
+      "subject": "high_school_chemistry",
+      "expected": "D",
+      "base_pred": null,
+      "base_raw": "The atom of the element most likely to form a structure with the formula X",
+      "opt_pred": "D",
+      "opt_raw": "D. Sulfur"
+    },
+    {
+      "question": "The suspension cable of a 1,000 kg elevator snaps, sending t",
+      "subject": "college_physics",
+      "expected": "C",
+      "base_pred": null,
+      "base_raw": "The heat that the brakes must dissipate to bring the elevator safely",
+      "opt_pred": "C",
+      "opt_raw": "C. 1,000,000 J"
+    },
+    {
+      "question": "Why do we see essentially the same face of the Moon at all t",
+      "subject": "astronomy",
+      "expected": "D",
+      "base_pred": "A",
+      "base_raw": "A. because the Moon has a nearly circular orbit around the Earth",
+      "opt_pred": "D",
+      "opt_raw": "D. because the Moon's rotational and orbital periods are equal"
+    },
+    {
+      "question": "Two simple pendulums A and B consist of identical masses sus",
+      "subject": "college_physics",
+      "expected": "A",
+      "base_pred": "B",
+      "base_raw": "B. L_B = 2L_A",
+      "opt_pred": "A",
+      "opt_raw": "A. Electrons producing \u010cerenkov radiation"
+    }
+  ]
+}
